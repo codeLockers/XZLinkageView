@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970CB9151E0BA7DF00E2C813 /* XZCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970CB9141E0BA7DF00E2C813 /* XZCollectionController.m */; };
+		970CB9171E0BA8C300E2C813 /* meilshuo.json in Resources */ = {isa = PBXBuildFile; fileRef = 970CB9161E0BA8C300E2C813 /* meilshuo.json */; };
+		970CB91A1E0BA9A300E2C813 /* XZCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 970CB9191E0BA9A300E2C813 /* XZCollectionModel.m */; };
+		970CB91D1E0BACD600E2C813 /* XZCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 970CB91C1E0BACD600E2C813 /* XZCollectionCell.m */; };
+		970CB9201E0BAD1100E2C813 /* XZCollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 970CB91F1E0BAD1100E2C813 /* XZCollectionHeadView.m */; };
 		97ACE0B01E0A16090035097D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0AF1E0A16090035097D /* main.m */; };
 		97ACE0B31E0A16090035097D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0B21E0A16090035097D /* AppDelegate.m */; };
 		97ACE0B61E0A16090035097D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0B51E0A16090035097D /* ViewController.m */; };
 		97ACE0B91E0A16090035097D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97ACE0B71E0A16090035097D /* Main.storyboard */; };
 		97ACE0BB1E0A16090035097D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97ACE0BA1E0A16090035097D /* Assets.xcassets */; };
 		97ACE0BE1E0A16090035097D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97ACE0BC1E0A16090035097D /* LaunchScreen.storyboard */; };
+		97ACE0C81E0A18DC0035097D /* XZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0C71E0A18DC0035097D /* XZTableViewController.m */; };
+		97ACE0CA1E0A1F310035097D /* meituan.json in Resources */ = {isa = PBXBuildFile; fileRef = 97ACE0C91E0A1F310035097D /* meituan.json */; };
+		97ACE0D11E0A230F0035097D /* MTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0D01E0A230F0035097D /* MTModel.m */; };
+		97ACE0D41E0A24A60035097D /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0D31E0A24A60035097D /* NSObject+Property.m */; };
+		97ACE0D71E0A53240035097D /* XZLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ACE0D61E0A53240035097D /* XZLeftCell.m */; };
+		DA1AC12EA304A01FD7399D98 /* libPods-XZLinkageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F76697EB997DFC22258EE52D /* libPods-XZLinkageView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970CB9131E0BA7DF00E2C813 /* XZCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCollectionController.h; sourceTree = "<group>"; };
+		970CB9141E0BA7DF00E2C813 /* XZCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCollectionController.m; sourceTree = "<group>"; };
+		970CB9161E0BA8C300E2C813 /* meilshuo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meilshuo.json; sourceTree = "<group>"; };
+		970CB9181E0BA9A300E2C813 /* XZCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCollectionModel.h; sourceTree = "<group>"; };
+		970CB9191E0BA9A300E2C813 /* XZCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCollectionModel.m; sourceTree = "<group>"; };
+		970CB91B1E0BACD600E2C813 /* XZCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCollectionCell.h; sourceTree = "<group>"; };
+		970CB91C1E0BACD600E2C813 /* XZCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCollectionCell.m; sourceTree = "<group>"; };
+		970CB91E1E0BAD1000E2C813 /* XZCollectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZCollectionHeadView.h; sourceTree = "<group>"; };
+		970CB91F1E0BAD1100E2C813 /* XZCollectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZCollectionHeadView.m; sourceTree = "<group>"; };
 		97ACE0AB1E0A16090035097D /* XZLinkageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZLinkageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ACE0AF1E0A16090035097D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97ACE0B11E0A16090035097D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +46,18 @@
 		97ACE0BA1E0A16090035097D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97ACE0BD1E0A16090035097D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97ACE0BF1E0A16090035097D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97ACE0C61E0A18DC0035097D /* XZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTableViewController.h; sourceTree = "<group>"; };
+		97ACE0C71E0A18DC0035097D /* XZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTableViewController.m; sourceTree = "<group>"; };
+		97ACE0C91E0A1F310035097D /* meituan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meituan.json; sourceTree = "<group>"; };
+		97ACE0CF1E0A230F0035097D /* MTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTModel.h; sourceTree = "<group>"; };
+		97ACE0D01E0A230F0035097D /* MTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTModel.m; sourceTree = "<group>"; };
+		97ACE0D21E0A24A60035097D /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		97ACE0D31E0A24A60035097D /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		97ACE0D51E0A53240035097D /* XZLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZLeftCell.h; sourceTree = "<group>"; };
+		97ACE0D61E0A53240035097D /* XZLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZLeftCell.m; sourceTree = "<group>"; };
+		A284EAC082B68EEB6CBF8DC6 /* Pods-XZLinkageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZLinkageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZLinkageView/Pods-XZLinkageView.release.xcconfig"; sourceTree = "<group>"; };
+		BEFC69EFAB38B7C0A60844FE /* Pods-XZLinkageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZLinkageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZLinkageView/Pods-XZLinkageView.debug.xcconfig"; sourceTree = "<group>"; };
+		F76697EB997DFC22258EE52D /* libPods-XZLinkageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZLinkageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1AC12EA304A01FD7399D98 /* libPods-XZLinkageView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A5AEF681A1D730600FC1335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76697EB997DFC22258EE52D /* libPods-XZLinkageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		970CB9121E0BA7A600E2C813 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				970CB9131E0BA7DF00E2C813 /* XZCollectionController.h */,
+				970CB9141E0BA7DF00E2C813 /* XZCollectionController.m */,
+				970CB9181E0BA9A300E2C813 /* XZCollectionModel.h */,
+				970CB9191E0BA9A300E2C813 /* XZCollectionModel.m */,
+				970CB91E1E0BAD1000E2C813 /* XZCollectionHeadView.h */,
+				970CB91F1E0BAD1100E2C813 /* XZCollectionHeadView.m */,
+				970CB91B1E0BACD600E2C813 /* XZCollectionCell.h */,
+				970CB91C1E0BACD600E2C813 /* XZCollectionCell.m */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
 		97ACE0A21E0A16090035097D = {
 			isa = PBXGroup;
 			children = (
 				97ACE0AD1E0A16090035097D /* XZLinkageView */,
 				97ACE0AC1E0A16090035097D /* Products */,
+				C47CEE90294DA15A2006CAA1 /* Pods */,
+				4A5AEF681A1D730600FC1335 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +116,9 @@
 		97ACE0AD1E0A16090035097D /* XZLinkageView */ = {
 			isa = PBXGroup;
 			children = (
+				970CB9121E0BA7A600E2C813 /* CollectionView */,
+				97ACE0CB1E0A22970035097D /* Tools */,
+				97ACE0C51E0A18BF0035097D /* TableView */,
 				97ACE0B11E0A16090035097D /* AppDelegate.h */,
 				97ACE0B21E0A16090035097D /* AppDelegate.m */,
 				97ACE0B41E0A16090035097D /* ViewController.h */,
@@ -75,8 +136,41 @@
 			isa = PBXGroup;
 			children = (
 				97ACE0AF1E0A16090035097D /* main.m */,
+				97ACE0C91E0A1F310035097D /* meituan.json */,
+				970CB9161E0BA8C300E2C813 /* meilshuo.json */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97ACE0C51E0A18BF0035097D /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				97ACE0C61E0A18DC0035097D /* XZTableViewController.h */,
+				97ACE0C71E0A18DC0035097D /* XZTableViewController.m */,
+				97ACE0D51E0A53240035097D /* XZLeftCell.h */,
+				97ACE0D61E0A53240035097D /* XZLeftCell.m */,
+				97ACE0CF1E0A230F0035097D /* MTModel.h */,
+				97ACE0D01E0A230F0035097D /* MTModel.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		97ACE0CB1E0A22970035097D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				97ACE0D21E0A24A60035097D /* NSObject+Property.h */,
+				97ACE0D31E0A24A60035097D /* NSObject+Property.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		C47CEE90294DA15A2006CAA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEFC69EFAB38B7C0A60844FE /* Pods-XZLinkageView.debug.xcconfig */,
+				A284EAC082B68EEB6CBF8DC6 /* Pods-XZLinkageView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97ACE0C21E0A16090035097D /* Build configuration list for PBXNativeTarget "XZLinkageView" */;
 			buildPhases = (
+				CBB2FF0DCB58D818AFF4C7A5 /* [CP] Check Pods Manifest.lock */,
 				97ACE0A71E0A16090035097D /* Sources */,
 				97ACE0A81E0A16090035097D /* Frameworks */,
 				97ACE0A91E0A16090035097D /* Resources */,
+				6D038A017EDAFBC877FC6353 /* [CP] Embed Pods Frameworks */,
+				82D2F2427D93E75C1E92E7BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,21 +236,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				97ACE0BE1E0A16090035097D /* LaunchScreen.storyboard in Resources */,
+				970CB9171E0BA8C300E2C813 /* meilshuo.json in Resources */,
 				97ACE0BB1E0A16090035097D /* Assets.xcassets in Resources */,
 				97ACE0B91E0A16090035097D /* Main.storyboard in Resources */,
+				97ACE0CA1E0A1F310035097D /* meituan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D038A017EDAFBC877FC6353 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZLinkageView/Pods-XZLinkageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D2F2427D93E75C1E92E7BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZLinkageView/Pods-XZLinkageView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB2FF0DCB58D818AFF4C7A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97ACE0A71E0A16090035097D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970CB91A1E0BA9A300E2C813 /* XZCollectionModel.m in Sources */,
 				97ACE0B61E0A16090035097D /* ViewController.m in Sources */,
 				97ACE0B31E0A16090035097D /* AppDelegate.m in Sources */,
+				970CB9201E0BAD1100E2C813 /* XZCollectionHeadView.m in Sources */,
+				97ACE0D11E0A230F0035097D /* MTModel.m in Sources */,
 				97ACE0B01E0A16090035097D /* main.m in Sources */,
+				97ACE0D41E0A24A60035097D /* NSObject+Property.m in Sources */,
+				970CB9151E0BA7DF00E2C813 /* XZCollectionController.m in Sources */,
+				97ACE0D71E0A53240035097D /* XZLeftCell.m in Sources */,
+				97ACE0C81E0A18DC0035097D /* XZTableViewController.m in Sources */,
+				970CB91D1E0BACD600E2C813 /* XZCollectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +426,7 @@
 		};
 		97ACE0C31E0A16090035097D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFC69EFAB38B7C0A60844FE /* Pods-XZLinkageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KL3S3ZYGZ;
@@ -283,6 +439,7 @@
 		};
 		97ACE0C41E0A16090035097D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A284EAC082B68EEB6CBF8DC6 /* Pods-XZLinkageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KL3S3ZYGZ;
@@ -312,6 +469,7 @@
 				97ACE0C41E0A16090035097D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
